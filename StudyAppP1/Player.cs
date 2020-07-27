@@ -24,8 +24,6 @@ namespace StudyAppP1
                 Console.WriteLine("Please tell me your name:");
                 PlayerName = Console.ReadLine();
                 File.WriteAllText(PlayerData, PlayerName);
-
-
             }
 
             Console.WriteLine("Lets get ready to learn " + PlayerName + " ! ");
