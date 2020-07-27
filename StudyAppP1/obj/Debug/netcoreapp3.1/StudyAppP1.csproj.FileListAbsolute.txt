@@ -1,0 +1,12 @@
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/obj/Debug/netcoreapp3.1/StudyAppP1.csprojAssemblyReference.cache
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/obj/Debug/netcoreapp3.1/StudyAppP1.AssemblyInfoInputs.cache
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/obj/Debug/netcoreapp3.1/StudyAppP1.AssemblyInfo.cs
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/obj/Debug/netcoreapp3.1/StudyAppP1.csproj.CoreCompileInputs.cache
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/bin/Debug/netcoreapp3.1/StudyAppP1.deps.json
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/bin/Debug/netcoreapp3.1/StudyAppP1.runtimeconfig.json
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/bin/Debug/netcoreapp3.1/StudyAppP1.runtimeconfig.dev.json
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/bin/Debug/netcoreapp3.1/StudyAppP1.dll
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/bin/Debug/netcoreapp3.1/StudyAppP1.pdb
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/obj/Debug/netcoreapp3.1/StudyAppP1.dll
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/obj/Debug/netcoreapp3.1/StudyAppP1.pdb
+/Users/jordanbenson/Projects/StudyAppP1/StudyAppP1/obj/Debug/netcoreapp3.1/StudyAppP1.genruntimeconfig.cache
