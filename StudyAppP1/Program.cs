@@ -17,9 +17,10 @@ namespace StudyAppP1
             {
             WriteLine("Test");
             ReadKey();
-            Player player = new Player();
             Game game = new Game();
             Console.ReadKey();
+    
+
             }
         }
     }

@@ -14,19 +14,20 @@ namespace StudyAppP1
 
         public void NamePlayer()
         {
-            if (File.Exists(PlayerData))
+           if (File.Exists(PlayerData))
             {
                 PlayerName = File.ReadAllText(PlayerData);
                 WriteLine("Welcome Back!" + PlayerName);
             }
             else
             {
-                Console.WriteLine("Please tell me your name:");
-                PlayerName = Console.ReadLine();
+                WriteLine("Please tell me your name:");
+                PlayerName = ReadLine();
                 File.WriteAllText(PlayerData, PlayerName);
             }
-
-            Console.WriteLine("Lets get ready to learn " + PlayerName + " ! ");
+            ReadKey();
+            Clear();
+            
 
         }
     }

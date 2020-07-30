@@ -19,15 +19,17 @@ namespace StudyAppP1
             };
             public Game()
             {
-                Console.WriteLine("Hello,\nI guess its time to study!");
+                WriteLine("Hello,\nI guess its time to study!");
                 player.NamePlayer();
-                foreach (Question term in Questions)
+                WriteLine($"Lets get ready to learn " + player.PlayerName + " ! ");
+            foreach (Question term in Questions)
                 {
                     ForegroundColor = ConsoleColor.DarkCyan;
                     Write(term.QuestionTerm + ": ");
                     ForegroundColor = ConsoleColor.DarkMagenta;
-                    Write(term.QuestionAnswer + " \n");
+                    Write(term.QuestionAnswer);
                     ResetColor();
+                    WriteLine("  ");
                     WriteLine("Did I get the definition right? Please enter Y or N ");
                     string input = ReadLine();
                     if (input.ToUpper() == "Y")
@@ -42,16 +44,18 @@ namespace StudyAppP1
                     {
                         ForegroundColor = ConsoleColor.DarkRed;
                         WriteLine("Opps. Try Again");
-
+                        WriteLine("Your score is " + player.PlayerScore);
                     }
                     ResetColor();
-                    WriteLine("Press Enter to recive your next question");
+              
+                WriteLine("Press Enter to recive your next question");
                     ReadKey();
                     Clear();
 
                 }
 
-                WriteLine("Congratulations " + player.PlayerName + "! You have compleated this study session. \nYour score is " + player.PlayerScore);
+                WriteLine("Congratulations " + player.PlayerName + "! You have compleated this study session. ");
+                WriteLine("Your score is " + player.PlayerScore);
                 ReadKey();
             }
 

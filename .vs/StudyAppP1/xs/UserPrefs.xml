@@ -1,11 +1,21 @@
 ﻿<Properties StartupConfiguration="{0E0CC06B-13DE-4A08-9EC8-CDAF0113F6FD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StudyAppP1/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudyAppP1/Game.cs">
     <Files>
-      <File FileName="StudyAppP1/Program.cs" Line="17" Column="14" />
-      <File FileName="StudyAppP1/Game.cs" Line="32" Column="1" />
-      <File FileName="StudyAppP1/Player.cs" Line="15" Column="15" />
-      <File FileName="StudyAppP1/Question.cs" Line="10" Column="10" />
+      <File FileName="StudyAppP1/Game.cs" Line="58" Column="28" />
+      <File FileName="StudyAppP1/Player.cs" />
+      <File FileName="StudyAppP1/Question.cs" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudyAppP1" expanded="True">
+            <Node name="StudyAppP1" expanded="True">
+              <Node name="Game.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.StudyAppP1 PreferredExecutionTarget="MonoDevelop.Default" />
